@@ -6,6 +6,8 @@ The plugin uses nine fixed keys and an adaptive menu. It communicates with the c
 [Sublime Text bridge](https://github.com/Teddielike/FlexbarSublime-Sublime) over a local,
 authenticated HTTP connection.
 
+![Project example](Flexbar-Sublime-Text.webp)
+
 ## Requirements
 
 - FlexDesigner 2.2.5 or newer
