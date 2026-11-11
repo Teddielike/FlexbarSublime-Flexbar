@@ -6,7 +6,7 @@ bereitstellt.
 ![Beispiel der Flexbar-Integration](Flexbar-Sublime-Text.webp)
 
 Dieses Repository enthält den Flexbar-/FlexDesigner-Teil des Projekts. Die zugehörige Sublime-Text-
-Bridge befindet sich in [FlexbarSublime-Sublime](https://github.com/Teddielike/FlexbarSublime-Sublime).
+Bridge befindet sich in [FlexbarSublime-Bridge](https://github.com/Teddielike/FlexbarSublime-Bridge).
 
 ## Voraussetzungen
 

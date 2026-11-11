@@ -3,7 +3,7 @@
 FlexDesigner plugin that puts configurable Sublime Text commands and submenus on a Flexbar.
 
 The plugin uses nine fixed keys and an adaptive menu. It communicates with the companion
-[Sublime Text bridge](https://github.com/Teddielike/FlexbarSublime-Sublime) over a local,
+[Sublime Text bridge](https://github.com/Teddielike/FlexbarSublime-Bridge) over a local,
 authenticated HTTP connection.
 
 ![Project example](Flexbar-Sublime-Text.webp)
