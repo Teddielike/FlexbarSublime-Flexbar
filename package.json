@@ -1,0 +1,26 @@
+{
+  "name": "flexbar-sublime-fixedkeys",
+  "version": "1.0.0",
+  "description": "Sublime Text: icon-first fixed-key menu with configurable text fallback",
+  "author": "Christian Sperber",
+  "license": "MIT",
+  "repository": "https://github.com/Teddielike/FlexbarSublime-Flexbar.git",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node --test tests/*.test.cjs",
+    "plugin:validate": "flexcli plugin validate --path de.teddielike.flexbar-sublime-text.plugin",
+    "plugin:link": "flexcli plugin link --path de.teddielike.flexbar-sublime-text.plugin --uuid de.teddielike.flexbar-sublime-text",
+    "plugin:restart": "flexcli plugin restart --uuid de.teddielike.flexbar-sublime-text",
+    "plugin:pack": "flexcli plugin pack --path de.teddielike.flexbar-sublime-text.plugin",
+    "plugin:unlink": "flexcli plugin unlink --uuid de.teddielike.flexbar-sublime-text"
+  },
+  "dependencies": {
+    "@eniac/flexdesigner": "^1.0.9"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.2",
+    "rollup": "^4.0.2"
+  }
+}

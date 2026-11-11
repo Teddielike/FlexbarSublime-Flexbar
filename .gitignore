@@ -1,0 +1,4 @@
+node_modules/
+*.flexplugin
+logs/
+.DS_Store

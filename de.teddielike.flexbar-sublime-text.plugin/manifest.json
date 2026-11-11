@@ -1,0 +1,437 @@
+{
+  "name": "Sublime Text",
+  "uuid": "de.teddielike.flexbar-sublime-text",
+  "version": "1.0.0",
+  "author": "Christian Sperber",
+  "entry": "backend/plugin.cjs",
+  "description": "Sublime Text über die Flexbar bedienen: frei konfigurierbare Funktionen, Plugin-Untermenüs und automatisch aktualisierte Symbole.",
+  "repo": "https://github.com/Teddielike/FlexbarSublime-Flexbar",
+  "sdk": {
+    "version": "1.0.9"
+  },
+  "software": {
+    "minimumVersion": "1.0.6"
+  },
+  "os": [
+    {
+      "platform": "mac",
+      "minimumVersion": "10.15"
+    },
+    {
+      "platform": "windows",
+      "minimumVersion": "10"
+    }
+  ],
+  "configPage": "",
+  "shortcuts": [],
+  "keyLibrary": {
+    "title": "Sublime Text",
+    "style": {
+      "icon": "mdi mdi-code-tags",
+      "flags": []
+    },
+    "children": [
+      {
+        "title": "Verbindung testen",
+        "tip": "Diagnosetaste: Prüft die Verbindung zum FlexDesigner-Plugin. Führt keinen Sublime-Text-Befehl aus.",
+        "cid": "de.teddielike.flexbar-sublime-text.test",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": [
+            "mac",
+            "windows"
+          ]
+        },
+        "style": {
+          "icon": "mdi mdi-connection",
+          "width": 180,
+          "showIcon": true,
+          "showTitle": false,
+          "fontSize": 20,
+          "bgColor": "#19212b",
+          "fgColor": "#f0f3f6",
+          "showEmoji": false,
+          "iconSize": 40,
+          "iconPos": {
+            "X": 50,
+            "Y": 50
+          },
+          "titlePos": {
+            "X": 50,
+            "Y": 50
+          }
+        },
+        "data": {
+          "role": "test"
+        }
+      },
+      {
+        "title": "Zurück",
+        "tip": "Zurück aus einem Plugin-Untermenü ins Hauptmenü oder zur vorherigen Seite des Hauptmenüs. Auf der ersten Seite ohne Funktion.",
+        "cid": "de.teddielike.flexbar-sublime-text.prev",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": [
+            "mac",
+            "windows"
+          ]
+        },
+        "style": {
+          "icon": "mdi mdi-chevron-left",
+          "width": 160,
+          "showIcon": true,
+          "showTitle": false,
+          "fontSize": 20,
+          "bgColor": "#19212b",
+          "fgColor": "#f0f3f6",
+          "showEmoji": false,
+          "iconSize": 40,
+          "iconPos": {
+            "X": 50,
+            "Y": 50
+          },
+          "titlePos": {
+            "X": 50,
+            "Y": 50
+          }
+        },
+        "data": {
+          "role": "prev"
+        }
+      },
+      {
+        "title": "Menüplatz 1",
+        "tip": "Dynamischer Aktionsplatz 1: führt die hier angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü. Auswahl und Symbol im Sublime-Text-Menüeditor konfigurieren.",
+        "cid": "de.teddielike.flexbar-sublime-text.slot1",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": [
+            "mac",
+            "windows"
+          ]
+        },
+        "style": {
+          "icon": "mdi mdi-dots-horizontal",
+          "width": 240,
+          "showIcon": true,
+          "showTitle": false,
+          "fontSize": 20,
+          "bgColor": "#19212b",
+          "fgColor": "#f0f3f6",
+          "showEmoji": false,
+          "iconSize": 40,
+          "iconPos": {
+            "X": 50,
+            "Y": 50
+          },
+          "titlePos": {
+            "X": 50,
+            "Y": 50
+          }
+        },
+        "data": {
+          "role": "slot1"
+        }
+      },
+      {
+        "title": "Menüplatz 2",
+        "tip": "Dynamischer Aktionsplatz 2: führt die hier angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü. Auswahl und Symbol im Sublime-Text-Menüeditor konfigurieren.",
+        "cid": "de.teddielike.flexbar-sublime-text.slot2",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": [
+            "mac",
+            "windows"
+          ]
+        },
+        "style": {
+          "icon": "mdi mdi-dots-horizontal",
+          "width": 240,
+          "showIcon": true,
+          "showTitle": false,
+          "fontSize": 20,
+          "bgColor": "#19212b",
+          "fgColor": "#f0f3f6",
+          "showEmoji": false,
+          "iconSize": 40,
+          "iconPos": {
+            "X": 50,
+            "Y": 50
+          },
+          "titlePos": {
+            "X": 50,
+            "Y": 50
+          }
+        },
+        "data": {
+          "role": "slot2"
+        }
+      },
+      {
+        "title": "Menüplatz 3",
+        "tip": "Dynamischer Aktionsplatz 3: führt die hier angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü. Auswahl und Symbol im Sublime-Text-Menüeditor konfigurieren.",
+        "cid": "de.teddielike.flexbar-sublime-text.slot3",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": [
+            "mac",
+            "windows"
+          ]
+        },
+        "style": {
+          "icon": "mdi mdi-dots-horizontal",
+          "width": 240,
+          "showIcon": true,
+          "showTitle": false,
+          "fontSize": 20,
+          "bgColor": "#19212b",
+          "fgColor": "#f0f3f6",
+          "showEmoji": false,
+          "iconSize": 40,
+          "iconPos": {
+            "X": 50,
+            "Y": 50
+          },
+          "titlePos": {
+            "X": 50,
+            "Y": 50
+          }
+        },
+        "data": {
+          "role": "slot3"
+        }
+      },
+      {
+        "title": "Menüplatz 4",
+        "tip": "Dynamischer Aktionsplatz 4: führt die hier angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü. Auswahl und Symbol im Sublime-Text-Menüeditor konfigurieren.",
+        "cid": "de.teddielike.flexbar-sublime-text.slot4",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": [
+            "mac",
+            "windows"
+          ]
+        },
+        "style": {
+          "icon": "mdi mdi-dots-horizontal",
+          "width": 240,
+          "showIcon": true,
+          "showTitle": false,
+          "fontSize": 20,
+          "bgColor": "#19212b",
+          "fgColor": "#f0f3f6",
+          "showEmoji": false,
+          "iconSize": 40,
+          "iconPos": {
+            "X": 50,
+            "Y": 50
+          },
+          "titlePos": {
+            "X": 50,
+            "Y": 50
+          }
+        },
+        "data": {
+          "role": "slot4"
+        }
+      },
+      {
+        "title": "Menüplatz 5",
+        "tip": "Dynamischer Aktionsplatz 5: führt die hier angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü. Auswahl und Symbol im Sublime-Text-Menüeditor konfigurieren.",
+        "cid": "de.teddielike.flexbar-sublime-text.slot5",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": [
+            "mac",
+            "windows"
+          ]
+        },
+        "style": {
+          "icon": "mdi mdi-dots-horizontal",
+          "width": 240,
+          "showIcon": true,
+          "showTitle": false,
+          "fontSize": 20,
+          "bgColor": "#19212b",
+          "fgColor": "#f0f3f6",
+          "showEmoji": false,
+          "iconSize": 40,
+          "iconPos": {
+            "X": 50,
+            "Y": 50
+          },
+          "titlePos": {
+            "X": 50,
+            "Y": 50
+          }
+        },
+        "data": {
+          "role": "slot5"
+        }
+      },
+      {
+        "title": "Menüplatz 6",
+        "tip": "Dynamischer Aktionsplatz 6: führt die hier angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü. Auswahl und Symbol im Sublime-Text-Menüeditor konfigurieren.",
+        "cid": "de.teddielike.flexbar-sublime-text.slot6",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": [
+            "mac",
+            "windows"
+          ]
+        },
+        "style": {
+          "icon": "mdi mdi-dots-horizontal",
+          "width": 240,
+          "showIcon": true,
+          "showTitle": false,
+          "fontSize": 20,
+          "bgColor": "#19212b",
+          "fgColor": "#f0f3f6",
+          "showEmoji": false,
+          "iconSize": 40,
+          "iconPos": {
+            "X": 50,
+            "Y": 50
+          },
+          "titlePos": {
+            "X": 50,
+            "Y": 50
+          }
+        },
+        "data": {
+          "role": "slot6"
+        }
+      },
+      {
+        "title": "Weiter",
+        "tip": "Wechselt zur nächsten Seite des gerade geöffneten Menüs. Wenn keine weitere Seite vorhanden ist, passiert nichts.",
+        "cid": "de.teddielike.flexbar-sublime-text.next",
+        "config": {
+          "keyType": "default",
+          "clickable": true,
+          "platform": [
+            "mac",
+            "windows"
+          ]
+        },
+        "style": {
+          "icon": "mdi mdi-chevron-right",
+          "width": 150,
+          "showIcon": true,
+          "showTitle": false,
+          "fontSize": 20,
+          "bgColor": "#19212b",
+          "fgColor": "#f0f3f6",
+          "showEmoji": false,
+          "iconSize": 40,
+          "iconPos": {
+            "X": 50,
+            "Y": 50
+          },
+          "titlePos": {
+            "X": 50,
+            "Y": 50
+          }
+        },
+        "data": {
+          "role": "next"
+        }
+      }
+    ]
+  },
+  "local": {
+    "en": {
+      "PluginName": "Sublime Text",
+      "Description": "Control Sublime Text with Flexbar: configurable actions, plugin submenus and automatically updated icons.",
+      "Keys": {
+        "test": {
+          "Title": "Test connection",
+          "Tip": "Diagnostic key: checks the connection to the FlexDesigner plugin without running a Sublime Text command."
+        },
+        "prev": {
+          "Title": "Back",
+          "Tip": "Return from a plugin submenu to the main menu or to the previous main-menu page."
+        },
+        "slot1": {
+          "Title": "Menu slot 1",
+          "Tip": "Runs the displayed Sublime Text function or opens a plugin submenu."
+        },
+        "slot2": {
+          "Title": "Menu slot 2",
+          "Tip": "Runs the displayed Sublime Text function or opens a plugin submenu."
+        },
+        "slot3": {
+          "Title": "Menu slot 3",
+          "Tip": "Runs the displayed Sublime Text function or opens a plugin submenu."
+        },
+        "slot4": {
+          "Title": "Menu slot 4",
+          "Tip": "Runs the displayed Sublime Text function or opens a plugin submenu."
+        },
+        "slot5": {
+          "Title": "Menu slot 5",
+          "Tip": "Runs the displayed Sublime Text function or opens a plugin submenu."
+        },
+        "slot6": {
+          "Title": "Menu slot 6",
+          "Tip": "Runs the displayed Sublime Text function or opens a plugin submenu."
+        },
+        "next": {
+          "Title": "Next",
+          "Tip": "Go to the next page of the currently open menu. Does nothing when there is no next page."
+        }
+      }
+    },
+    "de": {
+      "PluginName": "Sublime Text",
+      "Description": "Sublime Text über die Flexbar bedienen: frei konfigurierbare Funktionen, Plugin-Untermenüs und automatisch aktualisierte Symbole.",
+      "Keys": {
+        "test": {
+          "Title": "Verbindung testen",
+          "Tip": "Diagnosetaste: Prüft die Verbindung zum FlexDesigner-Plugin. Führt keinen Sublime-Text-Befehl aus."
+        },
+        "prev": {
+          "Title": "Zurück",
+          "Tip": "Zurück aus einem Plugin-Untermenü ins Hauptmenü oder zur vorherigen Seite des Hauptmenüs."
+        },
+        "slot1": {
+          "Title": "Menüplatz 1",
+          "Tip": "Führt die angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü."
+        },
+        "slot2": {
+          "Title": "Menüplatz 2",
+          "Tip": "Führt die angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü."
+        },
+        "slot3": {
+          "Title": "Menüplatz 3",
+          "Tip": "Führt die angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü."
+        },
+        "slot4": {
+          "Title": "Menüplatz 4",
+          "Tip": "Führt die angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü."
+        },
+        "slot5": {
+          "Title": "Menüplatz 5",
+          "Tip": "Führt die angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü."
+        },
+        "slot6": {
+          "Title": "Menüplatz 6",
+          "Tip": "Führt die angezeigte Sublime-Text-Funktion aus oder öffnet ein Plugin-Untermenü."
+        },
+        "next": {
+          "Title": "Weiter",
+          "Tip": "Wechselt zur nächsten Seite des gerade geöffneten Menüs. Wenn keine weitere Seite vorhanden ist, passiert nichts."
+        }
+      }
+    }
+  }
+}

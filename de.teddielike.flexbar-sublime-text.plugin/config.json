@@ -1,0 +1,6 @@
+{
+  "mode": "adaptive",
+  "pollMs": 2500,
+  "drawIntervalMs": 140,
+  "readyDelayMs": 700
+}
